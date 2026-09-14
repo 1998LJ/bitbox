@@ -11,9 +11,9 @@ def run(*args) -> str:
     if not val:
         return "Error: expected a comma-separated list of numbers"
 
-    parts = [p.strip() for p in val.split(",") if p.strip()]
-    if not parts:
-        return "Error: expected a comma-separated list of numbers"
+    parts = [p.strip() for p in val.split(",")]
+    if any(not p for p in parts):
+        return "Error: all elements must be numbers"
 
     nums = []
     for p in parts:

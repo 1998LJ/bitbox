@@ -15,3 +15,10 @@ def test_range_of_list_errors():
     assert run("") == "Error: expected a comma-separated list of numbers"
     assert run("1, 2, abc") == "Error: all elements must be numbers"
     assert run("   ") == "Error: expected a comma-separated list of numbers"
+
+
+def test_range_of_list_empty_elements_boundary():
+    assert run("1,,5") == "Error: all elements must be numbers"
+    assert run(",1,5") == "Error: all elements must be numbers"
+    assert run("1,5,") == "Error: all elements must be numbers"
+    assert run("1, ,5") == "Error: all elements must be numbers"
