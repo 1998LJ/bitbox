@@ -5,14 +5,19 @@
 
 
 def run(*args) -> str:
-    if not args or not str(args[0]).strip():
-        return ""
+    if not args:
+        return "Error: expected an integer"
+    val = str(args[0]).strip()
+    if not val:
+        return "Error: expected an integer"
+
     try:
-        n = int(str(args[0]).strip())
+        n = int(val)
     except ValueError:
-        return ""
+        return "Error: argument must be an integer"
+
     if n <= 1:
-        return ""
+        return "Error: argument must be greater than 1"
 
     factors = []
     d = 2
