@@ -74,7 +74,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. The short version:
 | [@prakhargaba007](https://github.com/prakhargaba007) | count_chars |
 | [@rdhadge](https://github.com/rdhadge) | title_case, repeat_string, base64_encode, base64_decode |
 | [@JingliangGao](https://github.com/JingliangGao) | is_uppercase |
-| [@Julito-Dev](https://github.com/Julito-Dev) | reverse_words, is_iso_date |
+| [@Julito-Dev](https://github.com/Julito-Dev) | reverse_words, is_iso_date, is_empty |
 | [@Diyaaa-12](https://github.com/Diyaaa-12) | absolute, is_odd, flatten_list, unique_list |
 | [@Bruce191](https://github.com/Bruce191) | is_even, swap_case |
 | [@ishita-0301](https://github.com/ishita-0301) | kg_to_lbs, miles_to_km |
@@ -126,5 +126,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. The short version:
 | [@divyanshsinghtomar-ds](https://github.com/divyanshsinghtomar-ds) | subtract_days |
 | [@ShauryaPrakashVerma](https://github.com/ShauryaPrakashVerma) | count_lowercase, count_uppercase, count_non_vowels, is_vowel, count_consonants |
 
-| [@GabrielTrifoni](https://github.com/GabrielTrifoni) | digits_product |
+| [@GabrielTrifoni](https://github.com/GabrielTrifoni) | digits_product, char_at |
+| [@fathirramadhan-web](https://github.com/fathirramadhan-web) | intersection_of_lists |
+| [@1998LJ](https://github.com/1998LJ) | count_primes, next_prime, binary_to_hex, hex_to_binary, octal_to_hex, is_perfect_number, product_of_list, average_of_digits, reverse_number, mode_of_list, range_of_list, collatz_length, prime_factors |
+| [@rmanojgowda](https://github.com/rmanojgowda) | is_abundant |
+| [@HarshRajSinghania](https://github.com/HarshRajSinghania) | digital_root |
+| [@MateiB20](https://github.com/MateiB20) | octal_to_binary, collatz_steps |
 <!-- Contributors are added automatically after PRs are merged -->
