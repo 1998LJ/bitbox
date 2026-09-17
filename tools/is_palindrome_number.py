@@ -1,7 +1,7 @@
 # tool: is_palindrome_number
 # description: Checks if a number is a palindrome.
 # author: @1998LJ
-# example: is_palindrome_number("121") returns "True"
+# is_palindrome_number(121) → True
 
 
 def run(*args) -> str:
