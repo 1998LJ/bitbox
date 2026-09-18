@@ -128,7 +128,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. The short version:
 
 | [@GabrielTrifoni](https://github.com/GabrielTrifoni) | digits_product, char_at |
 | [@fathirramadhan-web](https://github.com/fathirramadhan-web) | intersection_of_lists |
-| [@1998LJ](https://github.com/1998LJ) | count_primes, next_prime, binary_to_hex, hex_to_binary, octal_to_hex, is_perfect_number, product_of_list, average_of_digits, reverse_number, mode_of_list, range_of_list, collatz_length, prime_factors |
+| [@1998LJ](https://github.com/1998LJ) | count_primes, next_prime, binary_to_hex, hex_to_binary, octal_to_hex, is_perfect_number, product_of_list, average_of_digits, reverse_number, mode_of_list, range_of_list, collatz_length, prime_factors, longest_common_prefix |
 | [@rmanojgowda](https://github.com/rmanojgowda) | is_abundant |
 | [@HarshRajSinghania](https://github.com/HarshRajSinghania) | digital_root |
 | [@MateiB20](https://github.com/MateiB20) | octal_to_binary, collatz_steps |
